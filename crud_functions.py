@@ -3,14 +3,14 @@ animal_list = []
 
 def create_animal():
     name = str(input('Write the name of the animal: '))
-    type = str(input('Write the type of the animal: '))
-    new_animal = Animal(name, type)
+    species = str(input('Write the species of the animal: '))
+    new_animal = Animal(name, species)
     animal_list.append(new_animal)
 
 def set_new_animal(index):
     name = str(input('Write the new name of the animal: '))
-    type = str(input('Write the new type of the animal: '))
-    animal_list[index].update(name, type)
+    species = str(input('Write the new species of the animal: '))
+    animal_list[index].update(name, species)
 
 def read_animal():
     if(len(animal_list) > 0):

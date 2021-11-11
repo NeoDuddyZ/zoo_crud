@@ -23,7 +23,7 @@ while(True):
         elif x == 0:
             break
         else:
-            print('Invalid Value!\n')
+            print('Invalid Value!')
     except:
-        print('invalid input')
+        print('invalid input!')
         pass
